@@ -17,11 +17,11 @@ Route::get('/', function () {
 Route::get('/first', function () {
     return view('assignment/first');
 });
+Route::get('/second', function () {
+    return view('assignment/second');
+});
 Route::get('/third', function () {
     return view('assignment/third');
-});
-Route::get('/fourth', function () {
-    return view('assignment/fourth');
 });
 Route::get('/forth', function () {
     return view('assignment/forth');
@@ -31,6 +31,9 @@ Route::get('/fifth', function () {
 });
 Route::get('/sixth', function () {
     return view('assignment/sixth');
+});
+Route::get('/seventh', function () {
+    return view('assignment/seventh');
 });
 Route::get('/eight-2', function () {
     return view('assignment/eight-2');
