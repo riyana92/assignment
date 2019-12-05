@@ -20,6 +20,9 @@ Route::get('/first', function () {
 Route::get('/third', function () {
     return view('assignment/third');
 });
+Route::get('/fourth', function () {
+    return view('assignment/fourth');
+});
 Route::get('/forth', function () {
     return view('assignment/forth');
 });
