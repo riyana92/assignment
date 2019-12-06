@@ -63,3 +63,6 @@ Route::get('/fourteen', function () {
 Route::get('/fifteen', function () {
     return view('assignment/fifteen');
 });
+Route::get('/css1', function () {
+    return view('assignment/css1');
+});
